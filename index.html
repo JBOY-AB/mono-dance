@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Owl-carousel</title>
+    <link rel="stylesheet" href="/Font Awesome/css/all.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header id="home">
+        <!-- <img src="/asests/shape-top-grey-80.png" alt="Hero Image" class="hero-img" /> -->
+        <nav class="site-nav">
+            <img src="/img/logo.png" alt="Logo" class="logo-img" />
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Intro</a></li>
+                <li><a href="#countdown">Countdown</a></li>
+                <li><a href="#note">Note</a></li>
+                <li><a href="#map">Location</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger-menu" aria-label="Open navigation" tabindex="0">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <button id="toggle-button" aria-label="Toggle dark mode" style="font-size: 2rem;"><i
+                    class="fa-solid fa-moon"></i></button>
+            <button id="contact" class="btn"><i class="fa-solid fa-phone"></i> Call us</button>
+
+        </nav>
+        <div class="header-content">
+            <p class="text-m">IMOMOTIMI FOUNDATION PRESENTS </p>
+            <h2 class="text-n">Imomotimi Ijaw <br /><span class="text-p">Dance contest 2024</span></h2>
+            <button class="btn-n">Download Entry Form <i class="fa-solid fa-download"></i></button>
+            <p class="text-r">All duly filled out forms and the entry fees should be brought along to the audition.</p>
+            <div class="mouse-animation">
+                <div class="mouse-scroll"></div>
+            </div>
+        </div>
+
+    </header>
+
+    <div id="slider-1" class="owl-carousel">
+        <div>
+            <img src="/img/1.jpg" alt="dinner date">
+        </div>
+        <div>
+            <img src="/img/2.jpg" alt="dinner date">
+        </div>
+        <div>
+            <img src="/img/3.jpg" alt="dinner date">
+        </div>
+
+    </div>
+    <img src="/img/shape-top-white-80.png" id="topblack" alt="Shape top white" class="header-bottom-shape">
+
+
+
+
+
+    <!-- countdown section -->
+    <section class="countdown" id="countdown">
+        <h2 class="section-title">Countdown to the Audition</h2>
+        <div class="countdown-timer">
+            <div class="timer-item">
+                <span class="timer-value" id="days">29</span>
+                <span class="underline">___</span>
+                <span class="timer-label">Days</span>
+            </div>
+            <span class="colon">:</span>
+            <div class="timer-item">
+                <span class="timer-value" id="hours">02</span>
+                <span class="underline">___</span>
+                <span class="timer-label">Hours</span>
+            </div>
+            <span class="colon">:</span>
+            <div class="timer-item">
+                <span class="timer-value" id="minutes">08</span>
+                <span class="underline">___</span>
+                <span class="timer-label">Minutes</span>
+            </div>
+            <span class="colon">:</span>
+            <div class="timer-item">
+                <span class="timer-value" id="seconds">06</span>
+                <span class="underline">___</span>
+                <span class="timer-label">Seconds</span>
+            </div>
+        </div>
+        <img id="greytop" src="/img/shape-top-grey-80.png" alt="Shape top white" class="header-top-grey">
+    </section>
+    <!-- important things to note section -->
+    <section id="note">
+
+        <div class="note-container">
+            <div class="note-column">
+                <h1>Important things <br>to note...</h1>
+            </div>
+            <div class="pricing-column">
+                <i class="fa-solid fa-money-bill-wave" style="color: red; font-size: 2rem;"></i>
+                <h4>Pricing</h4>
+                <p>Audition forms are available for ₦1000</br> for single contestants,</br>and ₦1500 for a group of
+                    five.</p>
+            </div>
+            <div class="price-column">
+                <i class="fa-solid fa-trophy" style="color: red; font-size: 2rem;"></i>
+                <h4>Prices</h4>
+                <ul class="no-bullet">
+                    <li><strong>1st Price:</strong> ₦2,000,000</li>
+                    <li><strong>2nd Price:</strong> ₦1,000,000</li>
+                    <li><strong>3rd Price:</strong> ₦500,000</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!-- map -->
+    <section id="map">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3975.051559376202!2d6.316094377787738!3d4.931030982268803!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x106a055be1dcce59%3A0xa6c5b6a97ac6c1a!2sNitro%20Studios!5e0!3m2!1sen!2sng!4v1727710227172!5m2!1sen!2sng"
+            style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+    </section>
+    <!-- contact section -->
+    <section class="section4" id="contact">
+        <img src="/img/shape-top-grey-80.png" alt="img2" class="header-bottom-shape2">
+        <div id="sect4">
+            <div class="info">
+                <h2 class="h2">For More Information:</h2>
+                <p class="p1"><strong>Hotlines: </strong>07035973706 & 08108112759</p>
+                <p class="p2"><strong>Email: </strong> info@ijawdancecontest.ng</p>
+                <p class="p3"><strong>Audition Location: </strong> Nitro Studio, Tamara Hall,<br>Otiotio Road,
+                    Yenagoa,
+                    Bayelsa state.</p>
+            </div>
+
+            <form class="form">
+                <div class="form1">
+                    <div class="fdiv1">
+                        <div class="border mg2">
+                            <i class="fa-regular fa-user icons"></i>
+                            <input type="text" name="f.name" placeholder="Name">
+                        </div>
+                        <div class="border mg2">
+                            <i class="fa-regular fa-envelope icons"></i>
+                            <input type="email" name="email" placeholder="Email Address">
+                        </div>
+                    </div>
+
+                    <div class="fdiv2">
+                        <div class="border mg mg2">
+                            <i class="fa-solid fa-phone-volume icons"></i>
+                            <input type="tel" name="number" placeholder="Phone">
+                        </div>
+                        <div class="border mg mg2">
+                            <i class="fa-solid fa-circle-info icons"></i>
+                            <input type="text" name="subject" placeholder="Subject">
+                        </div>
+                    </div>
+
+                    <div class="border tarea mg2">
+                        <i class="fa-solid fa-pencil icons"></i>
+                        <textarea name="comment" id="comment"
+                            placeholder="How can we help you? Feel free to get in touch!" rows="4"></textarea>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <button id="button2"><strong><i class="fa-solid fa-paper-plane"></i> Get in Touch</strong></button>
+    </section>
+
+    <!-- footer section -->
+    <footer>
+        <div class="footer-content">
+            <div class="social-media">
+                <h3>We Are Social</h3>
+                <div class="social-icons">
+                    <a href="#"><span class="icon"><i class="fa-brands fa-facebook"></i></span></a>
+                    <a href="#"><span class="icon"><i class="fa-brands fa-x-twitter"></i></span></a>
+                    <a href="#"><span class="icon"><i class="fa-brands fa-instagram"></i></span></a>
+                    <a href="#"><span class="icon"><i class="fa-brands fa-youtube"></i></span></a>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <p style="padding-top: 20px;">© 2024 Imomotimi Foundation. All right Reserved.</p>
+        <a href="#" id="scroll" title="Go to top"><i class="fa-solid fa-arrow-up"></i></a>
+    </footer>
+
+
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        $(document).ready(function () {
+            $("#slider-1").owlCarousel({
+                margin: 0,
+                loop: true,
+                autoplay: true,
+                autoplayTimeout: 5000,
+                autoplayHoverPause: false,
+                responsive: {
+                    0: {
+                        items: 1,
+                        nav: true
+                    },
+                    600: {
+                        items: 1,
+                        nav: false
+                    },
+                    1000: {
+                        items: 1,
+                        nav: true,
+                        loop: true
+                    }
+                }
+            });
+        });
+    </script>
+    <script src="/css/script.js"></script>
+    <script src="/css/scroll-up.js"></script>
+    <script src="/css/dark-mode.js"></script>
+</body>
+
+</html>
