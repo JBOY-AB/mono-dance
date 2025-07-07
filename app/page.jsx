@@ -3,7 +3,7 @@ import Header from "../component/header";
 import Slider from "@/component/slider";
 import Countdown from "@/component/countdown";
 import Important from "@/component/important";
-import Contact from "@/component/Contact";
+import Contact from "@/component/contact";
 import Footer from "@/component/footer"
 
 
