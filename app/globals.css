@@ -8,9 +8,7 @@
   width: 100%;
   display: block;
 }
-body{
-  overflow: hidden;
-}
+
 
 .swiper-slider .swiper-button-prev,
 .swiper-slider .swiper-button-next {
@@ -47,12 +45,12 @@ body{
 
 
 
-
-html{
-  scroll-behavior: smooth;
+html, body {
+  /* max-width: 100%; */
   overflow-x: hidden;
-
+  /* box-sizing: border-box; */
 }
+
 
 *{
     margin: 0;
