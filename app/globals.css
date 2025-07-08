@@ -8,6 +8,9 @@
   width: 100%;
   display: block;
 }
+body{
+  overflow: hidden;
+}
 
 .swiper-slider .swiper-button-prev,
 .swiper-slider .swiper-button-next {
